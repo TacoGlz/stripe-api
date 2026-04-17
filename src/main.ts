@@ -5,7 +5,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   
 app.enableCors({
-  origin: 'https://stripe-api-gewm.onrender.com', // La URL que te dio Netlify
+  origin: 'https://incomparable-cactus-ff4625.netlify.app',
   methods: 'GET,POST',
   allowedHeaders: 'Content-Type,Authorization',
 });
